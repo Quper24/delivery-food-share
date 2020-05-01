@@ -174,7 +174,6 @@ createCardRestaurant();
 createCardRestaurant();
 
 new Swiper('.swiper-container', {
-	// Optional parameters
 	loop: true,
 	sliderPerView: 1,
 	autoplay: true
