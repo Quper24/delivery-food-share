@@ -412,6 +412,7 @@ button {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     display: none;
+    z-index: 999;
 }
 
 .modal-auth {
@@ -422,6 +423,7 @@ button {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     display: none;
+    z-index: 999;
 }
 
 .is-open {
