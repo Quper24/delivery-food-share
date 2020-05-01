@@ -19,7 +19,6 @@ const cardsMenu = document.querySelector('.cards-menu');
 
 let login = localStorage.getItem('gloDelivery');
 
-
 function toggleModal() {
 	modal.classList.toggle("is-open");
 }
@@ -68,7 +67,7 @@ function notAuthorized() {
 			toogleModalAuth();
 			buttonAuth.removeEventListener('click', toogleModalAuth);
 			closeAuth.removeEventListener('click', toogleModalAuth);
-			logInForm.removeEventListener('submit', logIn)
+			logInForm.removeEventListener('submit', logIn);
 			logInForm.reset();
 			checkAuth();
 		} else {
@@ -166,7 +165,7 @@ close.addEventListener("click", toggleModal);
 
 cardsRestaurants.addEventListener('click', openGoods);
 
-logo.addEventListener('click', returnMain)
+logo.addEventListener('click', returnMain);
 
 checkAuth();
 
